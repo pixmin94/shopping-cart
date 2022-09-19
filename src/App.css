@@ -9,3 +9,15 @@ nav {
     max-width: 1200px;
     margin: 10px auto;
   }
+
+.product-image {
+    max-width: 200px;
+}
+
+.item {
+    padding-right: 40px;
+}
+
+.row {
+    display: flex;
+  }

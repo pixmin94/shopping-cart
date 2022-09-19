@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.5463aa04.css",
+    "main.js": "/shopping-cart/static/js/main.e9d68ec9.js",
+    "static/media/Hay.png": "/shopping-cart/static/media/Hay.77aea6529f79ffed3e3a.png",
+    "static/media/Carrot.png": "/shopping-cart/static/media/Carrot.c3bafd1e9f64f6214f51.png",
+    "static/media/Litterbox.jpg": "/shopping-cart/static/media/Litterbox.00f21389805f71263b5c.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.5463aa04.css.map": "/shopping-cart/static/css/main.5463aa04.css.map",
+    "main.e9d68ec9.js.map": "/shopping-cart/static/js/main.e9d68ec9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5463aa04.css",
+    "static/js/main.e9d68ec9.js"
+  ]
+}

@@ -11,14 +11,14 @@ const Shop = ({ add }) => {
       <h1>Shop</h1>
       <div className="card-container">
         <div className="row">
-          <Item title="Carrots" image={carrot} price={5} add={add} />
-          <Item title="Hay" image={hay} price={5} add={add} />
-          <Item title="Litterbox" image={litterbox} price={20} add={add} />
+          <Item name="Carrots" image={carrot} price={5} add={add} />
+          <Item name="Hay" image={hay} price={5} add={add} />
+          <Item name="Litterbox" image={litterbox} price={20} add={add} />
         </div>
         {/* <div className="row">
-          <Item title="Item4" image="" price={} add={add} />
-          <Item title="Item5" image="" price={} add={add} />
-          <Item title="Item6" image="" price={} add={add} />
+          <Item name="Item4" image="" price={} add={add} />
+          <Item name="Item5" image="" price={} add={add} />
+          <Item name="Item6" image="" price={} add={add} />
         </div> */}
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React , { useState } from 'react';
 
-function Item({ title, image, price, add }) {
+function Item({ name, image, price, add }) {
     const [quantity, setQuantity] = useState(1);
 
     const increment = () => {
@@ -19,19 +19,19 @@ function Item({ title, image, price, add }) {
       };
     
     const addToCart = (e) => {
-        const item = { name: title, price, quantity };
+        const item = { name, image, price, quantity };
         add(item);
       };
 
     return (
         <div className="item">
-          <h4>{title}</h4>
+          <h4>{name}</h4>
           <img className="product-image" src={image}></img>
           <p>{`$${price}`}</p>
           <div className="add-to-cart">
-            <div className="add" onClick={addToCart}>
+            <button className="add" onClick={addToCart}>
               Add to cart
-            </div>
+            </button>
             <div className="quantity">
               <span className="less" onClick={decrement}>
                 -
